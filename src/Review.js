@@ -29,7 +29,7 @@ const Review = () => {
     });
   };
   const randomPerson = () => {
-    const randomIndex = Math.floor(Math.random() * people.length);
+    let randomIndex = Math.floor(Math.random() * people.length);
     if (randomIndex === index) {
       randomIndex = index+1
     }
